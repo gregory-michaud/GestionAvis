@@ -43,7 +43,6 @@ public class TestAvisRepository {
         assertThat(avisDB.getId()).isNotNull();
         assertThat(avisDB.getId()).isNotBlank();
         //Vérifier que tous les attributs sont remplis et non nuls
-        assertThat(avisDB.getNote()).isNotNull();
         assertThat(avisDB.getNote()).isEqualTo(4);
         assertThat(avisDB.getCommentaire()).isNotNull();
         assertThat(avisDB.getCommentaire()).isNotBlank();
