@@ -28,4 +28,6 @@ public class Avis {
     private String commentaire;
 
     private LocalDateTime date;
+
+    private Client client;
 }
