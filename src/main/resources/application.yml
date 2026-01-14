@@ -11,10 +11,12 @@ spring:
       database: Gestion_Avis
       authentication-database: admin
 
-  logging:
-    level:
-      org:
-        springframework:
+logging:
+  level:
+    org:
+      springframework:
+        data:
           mongodb:
             core:
               MongoTemplate: DEBUG
+
